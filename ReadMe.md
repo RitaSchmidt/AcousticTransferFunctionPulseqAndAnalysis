@@ -29,4 +29,4 @@ The resulting `.mat` file will include a structure three parameters defining the
 
 Here is a zoom between 300 Hz and 1500 Hz, of a transfer function we measured.
 
-![Sample, zoomed in, tranfer function](https://github.com/RitaSchmidt/AcousticTransferFunctionPulseqAndAnalysis/tree/main/SampleData/AnalysisOutput/Amplification_vs_Freq.svg?raw=true)
+![Sample, zoomed in, tranfer function](https://github.com/RitaSchmidt/AcousticTransferFunctionPulseqAndAnalysis/tree/main/SampleData/AnalysisOutput/Amplification_vs_Freq.png?raw=true)
