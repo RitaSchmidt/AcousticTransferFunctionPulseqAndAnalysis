@@ -20,10 +20,10 @@ While the scan is running the resulting sounds or vibrations should be recorded 
 
 Once the recordings are done, update the paths in the `RunRecording2TransferFunction.m` script, which will pass the recording and the Pulseq `.seq` file to the `Recording2TransferFunction.m` which will generate the transfer function (a `.mat` file).
 
-The resulting `.mat` file will include a structure three parameters defining the transfer function (names are kept for backwards compatibility, but you may change them):
-* `FreqsRaster` - The frequencies (Hz) in which the transfer function is sampled.
-* `RRaster` - The transfer function itself (at the frequency samples `FreqsRaster`). The units are arbitrary and different transfer functions, in general, cannot be compared, except for the relative change within them.
-* `RErrRaster` - The standard deviation of each transfer function sample. It is based on the averaging done during the measurement itself.
+The resulting `.mat` file will include a structure three parameters defining the transfer function:
+* `f` - The frequencies (Hz) in which the transfer function is sampled.
+* `Amplification` - The transfer function itself (at the frequency samples `f`). The units are arbitrary and different transfer functions, in general, cannot be compared, except for the relative change within them.
+* `AmplificationStdErr` - The standard deviation of each transfer function sample. It is based on the averaging done during the measurement itself.
 
 ### Sample results
 
